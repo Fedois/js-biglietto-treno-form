@@ -11,21 +11,23 @@
 <body>
 
     <main>
+        <!-- parte superiore -->
         <h1>CALCOLA IL PREZZO DEL BIGLIETTO</h1>
 
         <div class="box-top">
-            <form action="">
+            
+            <form action="" method="GET" class="form">
                 <div>
                     <label for="nome-input">Nome Cognome</label>
                     <div>
-                        <input name="nome-cognome" id="nome" type="text" required>
+                        <input name="nome-cognome" id="nome" type="text">
                     </div>
                 </div>
 
                 <div>
                     <label for="km-input">km da percorrere</label>
                     <div>
-                        <input name="km" id="km" type="number" required>
+                        <input name="km" id="km" type="number">
                     </div>
                 </div>
 
@@ -39,17 +41,18 @@
                         </select>
                     </div>
                 </div>
-            </form>
-                
-                <div class="btn">
+            
+                <div class="btn form">
                     <button id="genera" type="button">Genera</button>
                     <button id="annulla" type="button">Annulla</button>
                 </div>
-        
-        
+            </form>
+                
         </div>
         
+        <!-- parte inferiore -->
         <h1>IL TUO BIGLIETTO</h1>
+        
         <div id="box-bottom">
             
             <h3>DETTAGLIO PASSEGGERO</h3>
