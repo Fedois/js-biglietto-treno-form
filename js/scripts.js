@@ -11,6 +11,7 @@ generaBtn.addEventListener('click',
         const nomeInput = document.getElementById('nome');
         console.log('nome cliente: ', nomeInput.value)
         document.getElementById('nome-cliente').innerHTML = nomeInput.value;
+        document.getElementById('nome-cliente').style.textTransform = 'capitalize';
 
         const kmInput = document.getElementById('km');
         console.log('km da percorrere: ', kmInput.value)
@@ -27,7 +28,7 @@ generaBtn.addEventListener('click',
             document.getElementById('ticket').innerHTML = 'Biglietto Baby';
 
             const postoRandom = Math.random();
-            document.getElementById('posto').innerHTML = Math.floor(postoRandom * 11);
+            document.getElementById('posto').innerHTML = Math.floor(postoRandom * 10) + 1;
 
             const codiceRandom = Math.random();
             document.getElementById('codice').innerHTML = Math.floor(codiceRandom * 9000) + 90000;
@@ -48,7 +49,7 @@ generaBtn.addEventListener('click',
             document.getElementById('ticket').innerHTML = 'Biglietto Silver';
 
             const postoRandom = Math.random();
-            document.getElementById('posto').innerHTML = Math.floor(postoRandom * 11);
+            document.getElementById('posto').innerHTML = Math.floor(postoRandom * 10) + 1;
 
             const codiceRandom = Math.random();
             document.getElementById('codice').innerHTML = Math.floor(codiceRandom * 9000) + 90000;
@@ -66,7 +67,7 @@ generaBtn.addEventListener('click',
             document.getElementById('ticket').innerHTML = 'Biglietto Standard';
 
             const postoRandom = Math.random();
-            document.getElementById('posto').innerHTML = Math.floor(postoRandom * 11);
+            document.getElementById('posto').innerHTML = Math.floor(postoRandom * 10) + 1;
 
             const codiceRandom = Math.random();
             document.getElementById('codice').innerHTML = Math.floor(codiceRandom * 9000) + 90000;

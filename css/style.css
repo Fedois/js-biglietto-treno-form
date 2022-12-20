@@ -10,6 +10,7 @@
 }
 body{
     background-color: var(--color-red);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 h1{
     text-align: center;
@@ -25,6 +26,7 @@ main{
 /* parte superiore */
 .box-top{
     background-color: white;
+    box-shadow: 1px 3px 13px 2px rgba(0,0,0,0.5);
     padding: 1rem;
     text-align: center;
     color: var(--color-red);
@@ -43,6 +45,7 @@ form input, select{
 }
 form input:focus, select:focus{
     background-color: red;
+    color: white;
 }
 .btn{
     margin-top: 2rem;
@@ -55,7 +58,7 @@ form input:focus, select:focus{
     border: 1px solid gray;
 }
 .btn > button:focus{
-    border: 3px solid #ec9344;
+    box-shadow: inset 0px 0px 0px 3px #ec9344;
 }
 
 /* parte inferiore */
@@ -68,9 +71,6 @@ form input:focus, select:focus{
     display: flex;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-}
-#nome-cliente{
-    text-transform: capitalize;
 }
 .username{
     background-color: gray;
