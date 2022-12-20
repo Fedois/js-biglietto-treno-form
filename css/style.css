@@ -37,6 +37,9 @@ form > div:not(:last-child){
 }
 form input, select{
     border: 1px solid var(--color-red);
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
 }
 .btn{
     margin-top: 2rem;
@@ -45,6 +48,8 @@ form input, select{
     padding: 0.2rem;
     color: var(--color-red);
     font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid gray;
 }
 .btn > button:focus{
     border: 3px solid #ec9344;
