@@ -4,3 +4,60 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: red;
+}
+
+main{
+    width: 80vw;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 1rem;
+}
+
+.box-top{
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+    color: red;
+}
+
+form{
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+    margin-top: 2rem;
+}
+.btn > button{
+    padding: 0.2rem;
+}
+
+#box-bottom{
+    background-color: white;
+    padding: 1rem;
+    display: none;
+}
+.text{
+    display: flex;
+    border: 1px solid black;
+}
+#nome-cliente{
+    text-transform: capitalize;
+}
+.username{
+    background-color: gray;
+    padding: 1rem;
+}
+.info > div{
+    display: inline-block;
+    margin-right: 2rem;
+    padding: 1rem;
+}
+.info p{
+    margin-top: 3rem;
+}
