@@ -41,6 +41,9 @@ form input, select{
     text-align: center;
     padding: 5px;
 }
+form input:focus, select:focus{
+    background-color: red;
+}
 .btn{
     margin-top: 2rem;
 }

@@ -27,10 +27,10 @@ generaBtn.addEventListener('click',
             document.getElementById('ticket').innerHTML = 'Biglietto Baby';
 
             const postoRandom = Math.random();
-            document.getElementById('posto').innerHTML = Math.floor(postoRandom * 100);
+            document.getElementById('posto').innerHTML = Math.floor(postoRandom * 11);
 
             const codiceRandom = Math.random();
-            document.getElementById('codice').innerHTML = Math.floor(codiceRandom * 10000);
+            document.getElementById('codice').innerHTML = Math.floor(codiceRandom * 9000) + 90000;
 
             let sconto = ((prezzo / 100) * 20).toFixed(2);
             console.log('sconto 20%: ', sconto);
@@ -48,10 +48,10 @@ generaBtn.addEventListener('click',
             document.getElementById('ticket').innerHTML = 'Biglietto Silver';
 
             const postoRandom = Math.random();
-            document.getElementById('posto').innerHTML = Math.floor(postoRandom * 100);
+            document.getElementById('posto').innerHTML = Math.floor(postoRandom * 11);
 
             const codiceRandom = Math.random();
-            document.getElementById('codice').innerHTML = Math.floor(codiceRandom * 10000);
+            document.getElementById('codice').innerHTML = Math.floor(codiceRandom * 9000) + 90000;
 
             sconto = ((prezzo / 100) * 40).toFixed(2);
             console.log('sconto 20%: ', sconto);
@@ -66,10 +66,10 @@ generaBtn.addEventListener('click',
             document.getElementById('ticket').innerHTML = 'Biglietto Standard';
 
             const postoRandom = Math.random();
-            document.getElementById('posto').innerHTML = Math.floor(postoRandom * 100);
+            document.getElementById('posto').innerHTML = Math.floor(postoRandom * 11);
 
             const codiceRandom = Math.random();
-            document.getElementById('codice').innerHTML = Math.floor(codiceRandom * 10000);
+            document.getElementById('codice').innerHTML = Math.floor(codiceRandom * 9000) + 90000;
 
             document.getElementById('prezzo').innerHTML = prezzo + '€';
 
