@@ -28,6 +28,7 @@ main{
     background-color: white;
     box-shadow: 1px 3px 13px 2px rgba(0,0,0,0.5);
     padding: 1rem;
+    margin-top: 1rem;
     text-align: center;
     color: var(--color-red);
     border-radius: 0.5rem;
@@ -42,6 +43,7 @@ form input, select{
     border-radius: 5px;
     text-align: center;
     padding: 5px;
+    margin-top: 1rem;
 }
 form input:focus, select:focus{
     background-color: red;
@@ -56,6 +58,7 @@ form input:focus, select:focus{
     font-weight: bold;
     border-radius: 5px;
     border: 1px solid gray;
+    background-color: lightgray;
 }
 .btn > button:focus{
     box-shadow: inset 0px 0px 0px 3px #ec9344;
