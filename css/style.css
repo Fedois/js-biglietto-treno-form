@@ -46,6 +46,9 @@ form input, select{
     color: var(--color-red);
     font-weight: bold;
 }
+.btn > button:focus{
+    border: 3px solid #ec9344;
+}
 
 /* parte inferiore */
 #box-bottom{

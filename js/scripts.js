@@ -1,5 +1,6 @@
 
 const generaBtn = document.getElementById('genera');
+const annullaBtn = document.getElementById('annulla');
 
 generaBtn.addEventListener('click',
 
@@ -20,7 +21,7 @@ generaBtn.addEventListener('click',
         const prezzo = (kmInput.value * 0.21).toFixed(2);
         console.log('€', prezzo)
 
-        if(etaInput.value == 'minnorenne'){
+        if(etaInput.value == 'minorenne'){
             alert('avrai uno sconto del 20%');
 
             document.getElementById('ticket').innerHTML = 'Biglietto Baby';
@@ -74,6 +75,12 @@ generaBtn.addEventListener('click',
 
         }
     
+    }
+ )
+ annullaBtn.addEventListener('click',
+
+    function(){
+        document.getElementById('box-bottom').style.display = 'none';
     }
  )
 
