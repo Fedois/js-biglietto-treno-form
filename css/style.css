@@ -10,7 +10,7 @@
 }
 body{
     background-color: var(--color-red);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif
 }
 h1{
     text-align: center;
@@ -59,6 +59,9 @@ form input:focus, select:focus{
     border-radius: 5px;
     border: 1px solid gray;
     background-color: lightgray;
+}
+#genera{
+    margin-right: 1rem;
 }
 .btn > button:focus{
     box-shadow: inset 0px 0px 0px 3px #ec9344;

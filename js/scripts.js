@@ -34,10 +34,10 @@ generaBtn.addEventListener('click',
             document.getElementById('codice').innerHTML = Math.floor(codiceRandom * 9000) + 90000;
 
             let sconto = ((prezzo / 100) * 20).toFixed(2);
-            console.log('sconto 20%: ', sconto);
+            console.log('sconto 20%: €', sconto);
 
             let totale = (prezzo - sconto).toFixed(2);
-            console.log('prezzo finale: ', totale);
+            console.log('prezzo finale: €', totale);
 
             document.getElementById('prezzo').innerHTML = totale + '€';
 
@@ -55,10 +55,10 @@ generaBtn.addEventListener('click',
             document.getElementById('codice').innerHTML = Math.floor(codiceRandom * 9000) + 90000;
 
             sconto = ((prezzo / 100) * 40).toFixed(2);
-            console.log('sconto 20%: ', sconto);
+            console.log('sconto 20%: € ', sconto);
 
             totale = (prezzo - sconto).toFixed(2);
-            console.log('prezzo finale: ', totale);
+            console.log('prezzo finale: €', totale);
 
             document.getElementById('prezzo').innerHTML = totale + '€';
 
